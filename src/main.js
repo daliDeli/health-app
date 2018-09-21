@@ -94,11 +94,10 @@ window.chooseDoctor = function (e){
 
     let option1Node = document.createElement('option');
     option1Node.innerHTML = listOfTreatment[0];
+    selectNode.appendChild(option1Node);
 
     let option2Node = document.createElement('option');
     option2Node.innerHTML = listOfTreatment[1];
-    
-    selectNode.appendChild(option1Node);
     selectNode.appendChild(option2Node);
 
     patientChartDiv.appendChild(p1Node);

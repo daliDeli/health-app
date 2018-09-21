@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/main.css">
+    <title>Zdravstvena ustanova</title>
+</head>
+
+<body>
+    <div id="root">
+        <h1>Zdravstvena ustanova</h1>
+
+        <div class="chart">
+            <p>
+                Create your doctor
+            </p>
+            <input id="doctor-name" type="text" placeholder="Doctor Name and Surname">
+            <input id="doctor-speciality" type="text" placeholder="Doctors Speciality">
+            <button type="button" onclick="createDoctor()">
+                Create
+            </button>
+            <div id="doctor-list"></div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="chart">
+            <p>
+                Create the patient
+            </p>
+            <input id="patient-name" type="text" placeholder="Patient Name and Surname">
+            <input id="patient-chart-id" type="text" placeholder="Patient Chart ID">
+            <input id="patient-jmbg" type="text" placeholder="Patient JMBG">
+            <button type="button" onclick="createPatient()">
+                Create
+            </button>
+            <div id="patient-list"></div>
+        </div>
+
+    </div>
+    <!-- <script type="text/javascript" src="src/main.js"></script> -->
+    <script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+
+</html>

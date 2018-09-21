@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.chart{
+    margin: 2px;
+    padding: 2px;
+    display: inline-block;
+    width: 40%;
+    font-size: 22px;
+    border: greenyellow solid 1px;
+}
+.chart input,button{
+    padding: 4px;
+}
+.chart input{
+    width: 45%;
+    margin: 0 auto;
+    display: block;
+}
+#doctor-list > div[id], #patient-list >div[id]{
+    display: block;
+    border: green 1px solid;
+    text-align: left;
+    padding: 2px;
+}
+.line{
+    height: 100%;
+    border: solid black 2px;
+}
